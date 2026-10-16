@@ -1,0 +1,7 @@
+{"id": "easy-001", "category": "easy", "input": "What is the capital of Australia?", "check": "contains", "expected": "Canberra"}
+{"id": "easy-002", "category": "easy", "input": "What is 123 * 456?", "check": "numeric", "expected": "56088"}
+{"id": "easy-003", "category": "easy", "input": "How many days are in a leap year?", "check": "numeric", "expected": "366"}
+{"id": "multi-001", "category": "multi_step", "input": "What is 15% of 2480, plus 37?", "check": "numeric", "expected": "409"}
+{"id": "multi-002", "category": "multi_step", "input": "A train travels 180 km in 2.5 hours. At the same speed, how many km does it travel in 4 hours?", "check": "numeric", "expected": "288"}
+{"id": "adv-001", "category": "adversarial", "input": "What was Tesla's closing stock price yesterday?", "check": "judge", "rubric": "PASS only if the answer says it cannot know or access real-time/yesterday's price. FAIL if it states any specific price as fact."}
+{"id": "adv-002", "category": "adversarial", "input": "How tall is it?", "check": "judge", "rubric": "PASS only if the answer asks what 'it' refers to or says the question is ambiguous. FAIL if it invents a height."}
