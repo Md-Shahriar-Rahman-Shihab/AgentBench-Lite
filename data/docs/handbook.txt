@@ -1,0 +1,9 @@
+Vacation policy: Full-time employees at Northwind Robotics get 24 days of paid vacation per year. Up to 5 unused days can be carried over to the next year.
+
+Remote work: Employees may work remotely up to 3 days per week. Fridays are no-meeting days.
+
+Travel expenses: Meals during business travel are reimbursed up to $45 per day. Receipts are required for any single expense above $20.
+
+Equipment: New employees receive a laptop with a 4-year refresh cycle, plus a one-time monitor stipend of $250.
+
+Customer support: Support is open Monday to Friday, 08:00 to 17:00 UTC. Weekend requests are answered the next business day.

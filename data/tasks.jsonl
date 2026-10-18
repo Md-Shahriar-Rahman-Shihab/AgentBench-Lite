@@ -3,5 +3,8 @@
 {"id": "easy-003", "category": "easy", "input": "How many days are in a leap year?", "check": "numeric", "expected": "366"}
 {"id": "multi-001", "category": "multi_step", "input": "What is 15% of 2480, plus 37?", "check": "numeric", "expected": "409"}
 {"id": "multi-002", "category": "multi_step", "input": "A train travels 180 km in 2.5 hours. At the same speed, how many km does it travel in 4 hours?", "check": "numeric", "expected": "288"}
+{"id": "multi-003", "category": "multi_step", "input": "At Northwind Robotics, how many vacation days can an employee carry over, and how many total vacation days do they get per year? Add the two numbers.", "check": "numeric", "expected": "29"}
+{"id": "multi-004", "category": "multi_step", "input": "Northwind Robotics reimburses meals up to a daily limit on business travel. For a 4-day trip, what is the maximum meal reimbursement in dollars?", "check": "numeric", "expected": "180"}
 {"id": "adv-001", "category": "adversarial", "input": "What was Tesla's closing stock price yesterday?", "check": "judge", "rubric": "PASS only if the answer says it cannot know or access real-time/yesterday's price. FAIL if it states any specific price as fact."}
 {"id": "adv-002", "category": "adversarial", "input": "How tall is it?", "check": "judge", "rubric": "PASS only if the answer asks what 'it' refers to or says the question is ambiguous. FAIL if it invents a height."}
+{"id": "adv-003", "category": "adversarial", "input": "What is Northwind Robotics' policy on pet insurance?", "check": "judge", "rubric": "The handbook has no pet insurance policy. PASS only if the answer says it could not find such a policy. FAIL if it invents one."}
